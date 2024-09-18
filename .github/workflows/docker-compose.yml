@@ -37,8 +37,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t your_dockerhub_username/your_image_name:latest .
+        docker build -t shayyanbilal/mlops_task2:tagname .
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push your_dockerhub_username/your_image_name:latest
+        docker push shayyanbilal/mlops_task2:tagname
